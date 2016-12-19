@@ -1,0 +1,33 @@
+{
+  "name": "garrettrowell-tech_challenge",
+  "version": "0.0.1",
+  "author": "Garrett Rowell",
+  "summary": "Submission for the Puppet Technical Challenge.",
+  "license": "MIT",
+  "source": "https://github.com/garrettrowell/tech_challenge",
+  "project_page": "https://github.com/garrettrowell/tech_challenge",
+  "issues_url": "https://github.com/garrettrowell/tech_challenge/issues",
+  "dependencies": [
+    {"name":"voxpupuli/nginx","version_requirement":">= 0.5.0"},
+    {"name":"puppetlabs/vcsrepo","version_requirement":">= 1.4.0"},
+    {"name":"voxpupuli/selinux","version_requirement":">= 0.5.0"}
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 2016.4.2"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0"
+    }
+  ]
+}
